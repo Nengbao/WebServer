@@ -1,4 +1,7 @@
-A simple HTTP/HTTPS web server supporting persistent connection and GET and HEAD requests.
+A simple HTTP/HTTPS web server supporting GET and HEAD requests.
+- Support persistent connection to conform to HTTP 1.1 protocol
+- Support different file types and different response status codes (200, 404 etc.)
+- Support concurrent connections through multi-threading
 
 Compile:
     open a terminal
