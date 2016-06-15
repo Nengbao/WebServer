@@ -1,0 +1,12 @@
+A simple HTTP/HTTPS web server supporting persistent connection and GET and HEAD requests.
+
+Compile:
+    open a terminal
+    cd to the dir with makefile and java files are located
+    issue "make" command
+
+Run:
+    open a terminal
+    cd to the dir with makefile and java files are located
+    issue "make run" command (the used port are --serverPort=10000 --sslServerPort=10001)
+    or java Server --serverPort=portNum1 --sslServerPort=portNum2
