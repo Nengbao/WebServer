@@ -1,3 +1,5 @@
+package edu.uchicago.cs;
+
 import javax.net.ssl.KeyManagerFactory;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLServerSocket;
@@ -21,7 +23,7 @@ public class SecureListener extends AbstractListener {
 		KeyManagerFactory kmf = KeyManagerFactory.getInstance("SunX509");
 		KeyStore ks = KeyStore.getInstance("JKS");
 		char[] password = "networks".toCharArray();
-		ks.load(new FileInputStream("server.jks"), password);
+		ks.load(new FileInputStream("edu/uchicago/cs/server.jks"), password);
 		kmf.init(ks, password);
 		context.init(kmf.getKeyManagers(), null, null);
 		Arrays.fill(password, '0');

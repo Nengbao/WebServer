@@ -1,3 +1,5 @@
+package edu.uchicago.cs;
+
 import java.util.HashMap;
 import java.util.Map;
 

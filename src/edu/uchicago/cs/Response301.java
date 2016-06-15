@@ -1,3 +1,5 @@
+package edu.uchicago.cs;
+
 import java.net.Socket;
 
 public class Response301 extends Response {

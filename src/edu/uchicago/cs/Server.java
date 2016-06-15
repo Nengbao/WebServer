@@ -1,16 +1,14 @@
-import java.io.File;
+package edu.uchicago.cs;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Logger;
 
 public class Server {
     private static final int NUM_THREADS = 10;
-    public static final String ROOT_DIR = "www";
+    public static final String ROOT_DIR = "edu/uchicago/cs/www";
     public static final String INDEX_FILE_NAME = "index.html";
     public static final String REDIRECT_FILE_NAME = "redirect.defs";
 

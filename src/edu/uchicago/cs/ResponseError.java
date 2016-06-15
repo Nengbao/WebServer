@@ -1,3 +1,5 @@
+package edu.uchicago.cs;
+
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.Socket;

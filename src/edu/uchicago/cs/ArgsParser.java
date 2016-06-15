@@ -1,3 +1,5 @@
+package edu.uchicago.cs;
+
 public class ArgsParser {
 	public static int[] parseTwoPorts(String[] args, String className) {
 		int numOfPorts = 2;
